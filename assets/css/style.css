@@ -1,0 +1,139 @@
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+body {
+  padding: 30px;
+}
+
+.fullImage {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+#logo {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+
+#heading {
+    position: fixed bottom;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 20px;
+    overflow: auto;
+    color: white;
+    background: white;
+    border-bottom: 2px solid rgb(205, 205, 205);
+  }
+
+nav {
+      float: right;
+      margin-top: 20px;
+  }
+
+  nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+
+  #navbar {
+    position: fixed;
+    top: 0px;
+    left: 10px;
+
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);  /* 3 columns */
+    grid-template-rows: repeat(3, 250px); /* 3 rows  */
+    grid-gap:50px 30px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+  }
+
+  .grid-item {
+    border:thin gray solid;
+    padding:10px;
+  }
+  
+  #image {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .form {
+    padding: 20px;
+    width: 750px;
+    margin-left: 5%;
+    right: 50%;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.sidebar {
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width:980px){
+  .body {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:768px){
+  .body {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:640px){
+  .body {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+
+  }
+  header {
+    position: static;
+    
+  }
+}
